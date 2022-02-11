@@ -1,8 +1,9 @@
 
-# UBD: Understanding By Design
+# Proposal to use Azure Machine Learning designer
+This is one of the ideas I came up with based on the use of: https://docs.microsoft.com/en-us/learn/modules/create-regression-model-azure-machine-learning-designer/ 
 
-The UBD technique of curriculum design was created by Jay McTighe and Grant Wiggins and outlined in their book, "[Understanding By Design](https://www.amazon.com/Understanding-Design-second-Grant-Wiggins/dp/B006NPF8D0/ref=sr_1_15?crid=26FTBZ6E9Q53K&keywords=understanding+by+design&qid=1636052567&sprefix=understanding+by+design%2Caps%2C94&sr=8-15)" and its companion [Handbook](https://1lib.us/book/910241/cd96e1). UBD is a process of "backwards design" where the curriculum designer works through three stages, starting with the desired goals of the learning experience and moving backwards through assessments and then to the lesson design. It bears some similarities to TDD (test-driven development) processes in Engineering, where tests are to be written before the code. Use this template to outline your workshop's desired outcomes.
-
+Benefits: Easy to use and deploy. 
+          It allows us to focus only on the implementation and does not necessarily require a lot of experience in the use of ML.
 ## 
 
 ## Stage 1: Desired Results 
