@@ -91,15 +91,6 @@ Basic knowledge of [Python](https://www.python.org/downloads/).
 > *tips, tricks, callouts*
 
 
-## Milestone 7: Deploy a model as a service. 
-
-```javascript
-//code snippets to aid in the building process
-```
-
-> *tips, tricks, callouts*
-
-
 
 ## Test your knowledge. 
 
