@@ -117,13 +117,11 @@ You can also be an agent of change within your projects by taking into account t
 
 *I am gonna make a Kahoot for this part*
 
-## Next steps
-
 
 
 ## Optional Transfer knowledge activity
 
-Now that you have learned a little more about the use of machine learning and how it can help us achieve a more sustainable life, use this workshop to teach your friends or colleagues to raise awareness about the use of renewable energy. 
+Now that you have learned a little more about the use of machine learning and how it can help us achieve a more sustainable life, use this workshop to teach your friends or colleagues to raise awareness about the use of renewable energy with this [slides](./Slides.pptx). 
 
 
 ## Feedback
