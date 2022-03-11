@@ -32,10 +32,12 @@ You will be able to forecast the production of solar energy in a panel, based on
 3. Students will undersand the concepts of : 
         The use of technology in promoting environmental sustainability. 
         
-*add a screenshot of the completed project*
+
+
+## Video walk-through. 
 
 ![image of completed project](images/placeholder.png)
-
+>🎥 Click this image to watch EcoWatch team walk you through the workshop. 
 
 ## Prerequisites
 
@@ -53,17 +55,16 @@ Machine learning is the foundation of most AI solutions, using math and statisti
 
 Machines learn from data, every day we create a large amount of information that can be collected and used by data scientists to train a machine learning model and create predictions and inferences based on the relationships found in the information.
 
-The following video gives us several examples of how a machine learning model works. 
-
 [![workshop walk-through](./images/images.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE4xAok?postJsllMsg=true)
+>🎥 Click this image to watch several examples of how a machine learning model works. 
 
 ### Regression models in machine learning
 
 The Regression is a form of machine learning that is used to predict a numeric label based on an item's features,  in which you train a model using data that includes both the features and known values for the label, so that the model learns to fit the feature combinations to the label. Then, after training has been completed, you can use the trained model to predict labels for new items for which the label is unknown.
 
-If you are interested in learning more about regression models in machine learning, click on the image below. 
 
 [![workshop walk-through](./images/Regresion_Logol.png )](https://docs.microsoft.com/en-us/learn/modules/understand-regression-machine-learning/)
+>🔎 Click this image, to learn more about regression models in machine learning, 
 
 
 ## Milestone 2: Be one with sustainability 
@@ -74,8 +75,8 @@ In an effort to generate change, we have made this workshop so that you can see 
 
 You can also be an agent of change within your projects by taking into account the [eight principles of sustainable software engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/).
 
->[Visual Guide: To Sustainable Software Engineering](https://techcommunity.microsoft.com/t5/green-tech-blog/a-visual-guide-to-sustainable-software-engineering/ba-p/2130034) 
 ![workshop walk-through](./images/visual-greentech.jpeg)
+>♻️ [Visual Guide: To Sustainable Software Engineering](https://techcommunity.microsoft.com/t5/green-tech-blog/a-visual-guide-to-sustainable-software-engineering/ba-p/2130034) 
 
 
 ## Milestone 3: Getting the Dataset
