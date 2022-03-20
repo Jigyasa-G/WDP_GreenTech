@@ -84,9 +84,8 @@ You can also be an agent of change within your projects by taking into account t
 ```javascript
 //code snippets to aid in the building process
 ```
-[Combined dataset](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/combined_german_renewable.csv)
 
-> *tips, tricks, callouts*
+> *[Combined dataset](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/combined_german_renewable.csv)*
 
 ## Milestone 4: Create and run training pipeline
 
