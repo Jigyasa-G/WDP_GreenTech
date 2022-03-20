@@ -10,7 +10,7 @@ You will be able to forecast the production of solar energy in a panel, based on
 | **What will you learn**       | Identify use cases for predictive models linked to sustainability.The use of technology in promoting environmental sustainability.                                        |
 | **What you'll need**          | Internet Connection, an [Azure account](https://azure.microsoft.com),ability to navigate the Azure portal,basic concepts of Python and Pandas|
 | **Duration**                  | 1-1.5 hours                                                               |
-| **Just want to try the app or see the solution?** | *a link to the completed project sample app or solution folder*                          |
+| **Just want to try the app or see the solution?** | [Reference Notebook](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/german_renewable_data_prep.ipynb)                          |
 | **Slides** | [Powerpoint](slides.pptx)                          |
 
 ## Pre-Learning
