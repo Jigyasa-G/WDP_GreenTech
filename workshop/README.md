@@ -95,7 +95,7 @@ You can also be an agent of change within your projects by taking into account t
 
 > *tips, tricks, callouts*
 
-## Milestone 5: Undestand and Test the model.
+## Milestone 5: Understand and Test the model.
 
 ```javascript
 //code snippets to aid in the building process
