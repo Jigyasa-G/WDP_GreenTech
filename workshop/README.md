@@ -48,7 +48,7 @@ You will be able to forecast the production of solar energy in a panel, based on
 - Basic knowledge of [Python](https://www.python.org/downloads/).
 
 
-## Milestone 1: Machine Learning and Regresion Models. 
+## Milestone 1: Machine Learning and Regression Models. 
 
 ### Machine Learning
 Machine learning is the foundation of most AI solutions, using math and statistics to build predictive models for unknown values. 
