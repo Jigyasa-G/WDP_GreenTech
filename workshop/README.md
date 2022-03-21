@@ -115,7 +115,8 @@ You can also be an agent of change within your projects by taking into account t
 
 ## Test your knowledge. 
 
-*I am gonna make a Kahoot for this part*
+*You have come a long way in the learning journey, it's time to put your knowledge to test and prove that you have learnt it right. Attempt a quick quiz on Kahoot*
+[here](https://kahoot.it/challenge/04702208?challenge-id=c8b92fa6-4ccf-4cf3-abb7-425034be7dda_1647843077705)
 
 
 
