@@ -19,6 +19,9 @@ You will be able to forecast the production of solar energy in a panel, based on
 - [Use automated machine learning in Azure Machine Learning](https://docs.microsoft.com/es-mx/learn/modules/use-automated-machine-learning/).
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/).
 
+Acknowledgements: 
+- Credits to Hugo Ferreira's article on renewable energy prediction in Germany, which is the basis for this workshop: Blog: https://medium.com/hugo-ferreiras-blog/predicting-wind-and-solar-generation-from-weather-data-using-machine-learning-998d7db8415e; Code: https://nbviewer.org/github/hugorcf/Renewable-energy-weather/blob/master/renewable.ipynb
+
 
 ## What students will learn
 
@@ -67,7 +70,7 @@ The Regression is a form of machine learning that is used to predict a numeric l
 >🔎 Click this image, to learn more about regression models in machine learning, 
 
 
-## Milestone 2: Be one with sustainability 
+## Milestone 2: Join hands with sustainability 
 
 Among the great challenges we have today is the fact of promoting sustainability within our lives to face problems such as climate change and carbon emissions. 
 
