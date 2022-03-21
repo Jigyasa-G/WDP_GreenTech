@@ -11,7 +11,7 @@ You will be able to forecast the production of solar energy in a panel, based on
 | **What you'll need**          | Internet Connection, an [Azure account](https://azure.microsoft.com),ability to navigate the Azure portal,basic concepts of Python and Pandas|
 | **Duration**                  | 1-1.5 hours                                                               |
 | **Just want to try the app or see the solution?** | [Reference Notebook](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/german_renewable_data_prep.ipynb)                          |
-| **Slides** | [Powerpoint](slides.pptx)                          |
+| **Slides** | [Powerpoint](slides.pptx)                          | **Weather data** | https://hkustconnect-my.sharepoint.com/:f:/g/personal/agchan_connect_ust_hk/Ei9Zm1rJSgxEiKS1y7ZlD88BrAVL7gmXOvi_kML54ahp2w?e=h3Amxu
 
 ## Pre-Learning
 - [Get started with AI on Azure](https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/).
