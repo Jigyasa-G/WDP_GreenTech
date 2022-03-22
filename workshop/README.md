@@ -92,33 +92,20 @@ You can also be an agent of change within your projects by taking into account t
 
 ## Milestone 4: Create and run training pipeline
 
-```javascript
-//code snippets to aid in the building process
-```
-
-> *tips, tricks, callouts*
+> See the Azure Machine Learning designer 
 
 ## Milestone 5: Understand and Test the model.
 
-```javascript
-//code snippets to aid in the building process
-```
-
-> *tips, tricks, callouts*
+> See the Azure Machine Learning designer 
 
 ## Milestone 6: Deploy a model as a service. 
 
-```javascript
-//code snippets to aid in the building process
-```
-
-> *tips, tricks, callouts*
-
+> See the Azure Machine Learning designer 
 
 
 ## Test your knowledge. 
 
-You have come a long way in the learning journey, it's time to put your knowledge to test and prove that you have learnt it right. Attempt a quick quiz on *Kahoot*
+You have come a long way in your learning journey, it's time to put your knowledge to test and prove that you have learnt it right. Attempt a quick quiz on *Kahoot*
 [here](https://kahoot.it/challenge/04702208?challenge-id=c8b92fa6-4ccf-4cf3-abb7-425034be7dda_1647843077705).
 
 
