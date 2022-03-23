@@ -42,11 +42,20 @@ Acknowledgements:
 ![image of completed project](images/placeholder.png)
 >🎥 Click this image to watch EcoWatch team walk you through the workshop. 
 
+## Pre-learning
+- [Introduction to Python](https://docs.microsoft.com/en-us/learn/modules/python-data-science)
+
+- [Pandas for Data Science](https://docs.microsoft.com/en-us/learn/modules/pandas-data-science)
+
+- Manipulate and Clean Data on Python [workshop by Ornella](https://github.com/microsoft/workshop-library/blob/main/full/clean-prepare-data-python/README.md) 
+
 ## Prerequisites
 
 - An [Azure account](https://azure.microsoft.com)
 
-- Ability to navigate the Azure portal.
+- An active [Azure subscription] (https://azure.microsoft.com/en-us/free/)
+
+- [Azure Portal] (https://azure.microsoft.com/en-us/features/azure-portal/)
 
 - Basic knowledge of [Python](https://www.python.org/downloads/).
 
