@@ -137,17 +137,25 @@ combined = pd.merge(production_wind_solar, weather_by_day, how='left', left_inde
 combined = combined.drop('T (C)', axis=1)
 ```
 
-
-
 ## Milestone 5: Create and run training pipeline and Understand and Test the model.
 
-With the combined dataset, we can build our model predicting solar and wind energy output with the low-code machine learning platform AZ ML Designer. 
+### Model Building 
+With the combined dataset, we can build our model predicting solar and wind energy output with the low-code machine learning platform AZ ML Designer. We will select specific columns for model training for the wind and solar energy prediction respectively. Data wil be normalized with min-max normalization, split to training and test sets, so as to prepare for model training on our linear regression model. 
 
-> See the Azure Machine Learning designer 
+![image](https://user-images.githubusercontent.com/88496317/159605985-57c3142b-bb1d-4137-9084-663b5b0cad0b.png)
+
+### Evaluation of the model 
+Model evaluation is as simple as dragging the scoring and evaluation nodes to the ML Designer. Wohoo, even without complex deep learning models, our linear regression model scored well with a 0.88 and 0.95 R squared on the wind and solar energy datasets respectively! Not bad for such a simple model!
+![model_eval](https://user-images.githubusercontent.com/88496317/159606601-173b8e51-4ebf-4d67-84f8-7b8fa8c8225d.png)
+
 
 ## Milestone 6: Deploy a model as a service. 
 
-> See the Azure Machine Learning designer 
+Wind model: 
+![wind_pipeline](https://user-images.githubusercontent.com/88496317/159607398-65cbb2d3-fbbf-45ba-83a9-c16219d09775.png)
+
+Solar model:
+![solar_pipeline](https://user-images.githubusercontent.com/88496317/159607486-6c99d128-e305-478a-b227-3d54a973ea19.png)
 
 
 ## Test your knowledge. 
