@@ -11,7 +11,7 @@ You will be able to forecast the production of solar energy in a panel, based on
 | **What you'll need**          | Internet Connection, an [Azure account](https://azure.microsoft.com),ability to navigate the Azure portal,basic concepts of Python and Pandas|
 | **Duration**                  | 1-1.5 hours                                                               |
 | **Just want to try the app or see the solution?** | [Reference Notebook](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/german_renewable_data_prep.ipynb)                          |
-| **Slides** | [Powerpoint](slides.pptx)                          | **Weather data** | https://hkustconnect-my.sharepoint.com/:f:/g/personal/agchan_connect_ust_hk/Ei9Zm1rJSgxEiKS1y7ZlD88BrAVL7gmXOvi_kML54ahp2w?e=h3Amxu
+| **Slides** | [Powerpoint](slides.pptx)                          
 
 ## Pre-Learning
 - [Get started with AI on Azure](https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/).
@@ -53,14 +53,14 @@ Acknowledgements:
 
 - An [Azure account](https://azure.microsoft.com)
 
-- An active [Azure subscription] (https://azure.microsoft.com/en-us/free/)
+- An active [Azure subscription](https://azure.microsoft.com/en-us/free/)
 
-- [Azure Portal] (https://azure.microsoft.com/en-us/features/azure-portal/)
+- [Azure Portal](https://azure.microsoft.com/en-us/features/azure-portal/)
 
 - Basic knowledge of [Python](https://www.python.org/downloads/).
 
 
-## Milestone 1: Machine Learning and Regression Models. 
+## Milestone 1: Introduction to Machine Learning and Regression Models. 
 
 ### Machine Learning
 Machine learning is the foundation of most AI solutions, using math and statistics to build predictive models for unknown values. 
@@ -79,7 +79,7 @@ The Regression is a form of machine learning that is used to predict a numeric l
 >🔎 Click this image, to learn more about regression models in machine learning, 
 
 
-## Milestone 2: Join hands with sustainability 
+## Milestone 2: Introduction to Sustainability in Machine Learning
 
 Among the great challenges we have today is the fact of promoting sustainability within our lives to face problems such as climate change and carbon emissions. 
 
@@ -93,17 +93,55 @@ You can also be an agent of change within your projects by taking into account t
 
 ## Milestone 3: Getting the Dataset
 
-```javascript
-//code snippets to aid in the building process
+
+Next, you will integrate machine learning with sustainability by predicting the renewable energy output with weather and renewables data from Germany -- you can imagine how this is relevant for an energy grid planner managing energy production in a country. 
+
+Note: To directly download the cleaned datasets (joined from the weather and time series data), see [here](https://github.com/NikoMagafi/WDP_GreenTech/blob/main/workshop/solution/combined_german_renewable.csv)
+
+Otherwise, to perform the data cleaning from scratch, download the two datasets that will be used in this dataset
+(1) Time series wind and solar production in hourly resolution in 2016 (can be downloaded in our [GitHub folder](https://github.com/NikoMagafi/WDP_GreenTech/blob/main/workshop/solution/time_series_60min_singleindex_filtered.csv), or directly from the source, click the picture:   
+[![time-series_data](https://user-images.githubusercontent.com/88496317/159603190-1fa6583e-11af-4003-ae43-67138a2e84dc.png)](https://data.open-power-system-data.org/time_series/2017-03-06)
+
+(2) Weather data in Germany in 2016, can be downloaded in our OneDrive [link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/agchan_connect_ust_hk/Ei9Zm1rJSgxEiKS1y7ZlD88BrAVL7gmXOvi_kML54ahp2w?e=h3Amxu), or directly from the source, following from the procedures in this picture (click the picture to be redirected) [![weather](https://user-images.githubusercontent.com/88496317/159603599-8bc5890e-53d3-40ec-b517-0e3e37812f40.png)](https://data.open-power-system-data.org/weather_data/2020-09-16) 
+
+
+
+## Milestone 4: Data Preprocessing
+
+Again, to directly download the cleaned and combined datasets (joined from the weather and time series data), see [here](https://github.com/NikoMagafi/WDP_GreenTech/blob/main/workshop/solution/combined_german_renewable.csv)
+
+------If you've downloaded the weather and time series datasets separately ---------- 
+We will explore the dataframes, create new columns with groupby, visualize relationships between variables, work with missing data and combine two datasets into one dataset to be fed to our machine learning model
+
+### Time series data 
+```
+production = pd.read_csv("time_series_60min_singleindex_filtered.csv", usecols=(lambda s: s.startswith('utc') | s.startswith('DE')),parse_dates=[0], index_col=0)
+
 ```
 
-> *See ipynb notebook: [Combined dataset](https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/90617110-25a5-404c-8888-29477a22fe42/resourceGroups/ExamPractice/providers/Microsoft.MachineLearningServices/workspaces/AI900-practice&tid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&activeFilePath=Users/ANDREW.CHAN/combined_german_renewable.csv)*
+### Weather data 
+``` 
 
-## Milestone 4: Create and run training pipeline
+Importing the data: 
+weather = pd.read_csv("weather_data_result_GER_2016.csv",
+                     parse_dates=[0], index_col=0)
+```
 
-> See the Azure Machine Learning designer 
+### Combined dataset
 
-## Milestone 5: Understand and Test the model.
+```
+# merge production_wind_solar and weather_by_day DataFrames
+combined = pd.merge(production_wind_solar, weather_by_day, how='left', left_index=True, right_index=True)
+
+# drop redundant 'T (C)' column
+combined = combined.drop('T (C)', axis=1)
+```
+
+
+
+## Milestone 5: Create and run training pipeline and Understand and Test the model.
+
+With the combined dataset, we can build our model predicting solar and wind energy output with the low-code machine learning platform AZ ML Designer. 
 
 > See the Azure Machine Learning designer 
 
