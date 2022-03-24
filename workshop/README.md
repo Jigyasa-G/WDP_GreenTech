@@ -150,6 +150,7 @@ Model evaluation is as simple as dragging the scoring and evaluation nodes to th
 
 
 ## Milestone 6: Deploy a model as a service. 
+We will submit our training pipeline for deployment, then test the model with sample inputted data from 2017. With Azure, we are able to process, train and deploy in the cloud easily and integrate our prediction results with external platforms. 
 
 Wind model: 
 ![wind_pipeline](https://user-images.githubusercontent.com/88496317/159607398-65cbb2d3-fbbf-45ba-83a9-c16219d09775.png)
@@ -157,9 +158,9 @@ Wind model:
 Solar model:
 ![solar_pipeline](https://user-images.githubusercontent.com/88496317/159607486-6c99d128-e305-478a-b227-3d54a973ea19.png)
 
+With Azure, we can link our real time prediction with a centralized energy production system in an electricity grid dynamically adjust energy production, hence reduce energy and carbon wastage, advancing sustainability from its roots!
 
 ## Test your knowledge. 
-
 You have come a long way in your learning journey, it's time to put your knowledge to test and prove that you have learnt it right. Attempt a quick quiz on *Kahoot*
 [here](https://kahoot.it/challenge/04702208?challenge-id=c8b92fa6-4ccf-4cf3-abb7-425034be7dda_1647843077705).
 
