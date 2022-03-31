@@ -158,7 +158,9 @@ Wind model:
 Solar model:
 ![solar_pipeline](https://user-images.githubusercontent.com/88496317/159607486-6c99d128-e305-478a-b227-3d54a973ea19.png)
 
-With Azure, we can link our real time prediction with a centralized energy production system in an electricity grid dynamically adjust energy production, hence reduce energy and carbon wastage, advancing sustainability from its roots!
+Next, we will provide you with some sample data to test the predictions in your model after its deployment. 
+
+That's it! With Azure, we can link our real time prediction with a centralized energy production system in an electricity grid dynamically adjust energy production, hence reduce energy and carbon wastage, advancing sustainability from its roots!
 
 ## Test your knowledge. 
 You have come a long way in your learning journey, it's time to put your knowledge to test and prove that you have learnt it right. Attempt a quick quiz on *Kahoot*
